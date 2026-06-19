@@ -1,0 +1,12 @@
+:{$PORT} {
+    root * /app
+    
+    # Ocultar archivos ocultos (dotfiles) sensibles pero permitir .well-known
+    @sensitive {
+        path /.*
+        not path /.well-known/*
+    }
+    respond @sensitive 404
+    
+    file_server
+}
