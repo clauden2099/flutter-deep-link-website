@@ -1,0 +1,12 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.alanherandez.miscelaneos",
+      "sha256_cert_fingerprints": [
+        "1F:9F:4D:4E:38:01:13:D6:1A:54:C1:4F:23:FB:80:9F:58:A9:CF:F1:86:A7:0C:55:4F:9D:95:D1:27:B7:2B:17"
+      ]
+    }
+  }
+]
